@@ -1,0 +1,39 @@
+{
+  "fresh_venv": "/tmp/lorenz-fresh-env",
+  "source_copy": "/tmp/lorenz-clean-check",
+  "pip_check": "passed",
+  "unit_tests": 12,
+  "full_main": "passed",
+  "notebook": "all code cells executed in shared Python namespace; Jupyter GUI not tested",
+  "artifacts": {
+    "png_count": 7,
+    "gif_frames": 160,
+    "rk4_order": 4.0105215928352544,
+    "euler_refined_order": 1.0037255824442337,
+    "all_arrays_finite": true
+  },
+  "seconds": 24.671652657000095,
+  "note": "Пример одногруппника не изучался. Проверка на Python 3.12; Python 3.11 отдельно не запускался.",
+  "constants_addendum": {
+    "numeric_literals_indexed": 432,
+    "study_table_count": 17,
+    "model_test_thresholds": "explicit rtol=0, 12 tests passed",
+    "rk4_order_conditions": "8 exact rational equalities verified",
+    "study_matches_baseline": true,
+    "cross_links": "verified",
+    "finite_study_results": true,
+    "reproduction": [
+      "python main.py --skip-animation",
+      "python parameter_study.py",
+      "python build_constant_index.py"
+    ]
+  },
+  "repository_delivery": {
+    "math_glossary": "math-glossary.md",
+    "links_verified": true,
+    "unit_tests_rerun": 12,
+    "notebook_changes": "markdown navigation only",
+    "saved_graphs": 7,
+    "saved_gif_frames": 160
+  }
+}

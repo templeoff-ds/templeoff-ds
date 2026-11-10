@@ -1,0 +1,10 @@
+rtol,atol,case,length_disagreement,accepted
+1e-15,0,binary_roundoff,5.551115123125783e-17,True
+1e-15,0,near_noninteger,1.000088900582341e-12,False
+1e-15,0,noninteger,1.0000000005838672e-07,False
+1e-11,1e-13,binary_roundoff,5.551115123125783e-17,True
+1e-11,1e-13,near_noninteger,1.000088900582341e-12,True
+1e-11,1e-13,noninteger,1.0000000005838672e-07,False
+1e-06,1e-08,binary_roundoff,5.551115123125783e-17,True
+1e-06,1e-08,near_noninteger,1.000088900582341e-12,True
+1e-06,1e-08,noninteger,1.0000000005838672e-07,True

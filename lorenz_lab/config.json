@@ -1,0 +1,45 @@
+{
+  "sigma": 10.0,
+  "rho": 28.0,
+  "beta": 2.6666666666666665,
+  "initial_state": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "perturbation": [
+    1e-08,
+    0.0,
+    0.0
+  ],
+  "t_start": 0.0,
+  "t_end": 40.0,
+  "step": 0.01,
+  "short_end": 2.0,
+  "steps": [
+    0.04,
+    0.02,
+    0.01,
+    0.005,
+    0.0025
+  ],
+  "rk45_rtol": 1e-07,
+  "rk45_atol": 1e-09,
+  "reference_rtol": 1e-12,
+  "reference_atol": 1e-14,
+  "slope_window": [
+    10.0,
+    25.0
+  ],
+  "transient_end": 5.0,
+  "timing_repeats": 3,
+  "animation_frames": 160,
+  "animation_fps": 20,
+  "dpi": 170,
+  "euler_refinement_steps": [
+    0.00125,
+    0.000625,
+    0.0003125,
+    0.00015625
+  ]
+}

@@ -1,0 +1,13 @@
+threshold,equilibrium,classification
+1e-12,O,unstable
+1e-12,C+,unstable
+1e-12,C-,unstable
+1e-10,O,unstable
+1e-10,C+,unstable
+1e-10,C-,unstable
+1e-06,O,unstable
+1e-06,C+,unstable
+1e-06,C-,unstable
+0.1,O,unstable
+0.1,C+,inconclusive
+0.1,C-,inconclusive

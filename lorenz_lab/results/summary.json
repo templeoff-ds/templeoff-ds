@@ -1,0 +1,282 @@
+{
+  "config": {
+    "sigma": 10.0,
+    "rho": 28.0,
+    "beta": 2.6666666666666665,
+    "initial_state": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "perturbation": [
+      1e-08,
+      0.0,
+      0.0
+    ],
+    "t_start": 0.0,
+    "t_end": 40.0,
+    "step": 0.01,
+    "short_end": 2.0,
+    "steps": [
+      0.04,
+      0.02,
+      0.01,
+      0.005,
+      0.0025
+    ],
+    "rk45_rtol": 1e-07,
+    "rk45_atol": 1e-09,
+    "reference_rtol": 1e-12,
+    "reference_atol": 1e-14,
+    "slope_window": [
+      10.0,
+      25.0
+    ],
+    "transient_end": 5.0,
+    "timing_repeats": 3,
+    "animation_frames": 160,
+    "animation_fps": 20,
+    "dpi": 170,
+    "euler_refinement_steps": [
+      0.00125,
+      0.000625,
+      0.0003125,
+      0.00015625
+    ]
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "metrics": [
+    {
+      "method": "euler",
+      "max_error": 46.30011925725157,
+      "final_error": 4.39938848948866,
+      "short_max_error": 20.340333461930033,
+      "seconds_median": 0.013810248000027059,
+      "n_steps": 4000,
+      "nfev": 4000,
+      "n_output": 4001
+    },
+    {
+      "method": "rk4",
+      "max_error": 50.280371710125074,
+      "final_error": 21.78461847989416,
+      "short_max_error": 0.0007982399886875303,
+      "seconds_median": 0.04902033200005462,
+      "n_steps": 4000,
+      "nfev": 16000,
+      "n_output": 4001
+    },
+    {
+      "method": "RK45",
+      "max_error": 52.313970257301605,
+      "final_error": 15.826516959307925,
+      "short_max_error": 5.785202944671716e-06,
+      "seconds_median": 0.08570175999966523,
+      "n_steps": 2667,
+      "nfev": 17036,
+      "n_output": 4001
+    }
+  ],
+  "convergence": [
+    {
+      "method": "euler",
+      "h": 0.04,
+      "max_error": "",
+      "final_error": "",
+      "observed_order": "",
+      "status": "nonfinite"
+    },
+    {
+      "method": "euler",
+      "h": 0.02,
+      "max_error": 36.62620310541604,
+      "final_error": 6.338107986801016,
+      "observed_order": "",
+      "status": "ok"
+    },
+    {
+      "method": "euler",
+      "h": 0.01,
+      "max_error": 20.34033346192887,
+      "final_error": 20.34033346192887,
+      "observed_order": 0.8485328191617233,
+      "status": "ok"
+    },
+    {
+      "method": "euler",
+      "h": 0.005,
+      "max_error": 5.688695271584314,
+      "final_error": 4.859289902031129,
+      "observed_order": 1.8381736242659037,
+      "status": "ok"
+    },
+    {
+      "method": "euler",
+      "h": 0.0025,
+      "max_error": 2.2754166203769803,
+      "final_error": 2.0407145223738787,
+      "observed_order": 1.3219670801016408,
+      "status": "ok"
+    },
+    {
+      "method": "rk4",
+      "h": 0.04,
+      "max_error": 0.19563127184521859,
+      "final_error": 0.1439544390524911,
+      "observed_order": "",
+      "status": "ok"
+    },
+    {
+      "method": "rk4",
+      "h": 0.02,
+      "max_error": 0.012901279576491865,
+      "final_error": 0.004761027186012198,
+      "observed_order": 3.9225509374649294,
+      "status": "ok"
+    },
+    {
+      "method": "rk4",
+      "h": 0.01,
+      "max_error": 0.0007982399886875303,
+      "final_error": 0.00013968962236922045,
+      "observed_order": 4.014547798084945,
+      "status": "ok"
+    },
+    {
+      "method": "rk4",
+      "h": 0.005,
+      "max_error": 4.94880487690451e-05,
+      "final_error": 4.401940405883931e-06,
+      "observed_order": 4.011670488625924,
+      "status": "ok"
+    },
+    {
+      "method": "rk4",
+      "h": 0.0025,
+      "max_error": 3.0729739948338285e-06,
+      "final_error": 2.2039682587851154e-07,
+      "observed_order": 4.009372697044585,
+      "status": "ok"
+    }
+  ],
+  "euler_refinement": [
+    {
+      "h": 0.00125,
+      "max_error": 1.0444279539522625
+    },
+    {
+      "h": 0.000625,
+      "max_error": 0.5121717821899894
+    },
+    {
+      "h": 0.0003125,
+      "max_error": 0.25519439499560925
+    },
+    {
+      "h": 0.00015625,
+      "max_error": 0.1273833400569742
+    }
+  ],
+  "euler_refinement_order": 1.0037255824442337,
+  "orders_last_three": {
+    "euler": 1.580070352183773,
+    "rk4": 4.0105215928352544
+  },
+  "equilibria": [
+    {
+      "name": "O",
+      "state": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "eigenvalues": [
+        {
+          "real": -22.827723451163457,
+          "imag": 0.0
+        },
+        {
+          "real": 11.827723451163456,
+          "imag": 0.0
+        },
+        {
+          "real": -2.6666666666666665,
+          "imag": 0.0
+        }
+      ],
+      "stability": "неустойчиво"
+    },
+    {
+      "name": "C+",
+      "state": [
+        8.48528137423857,
+        8.48528137423857,
+        27.0
+      ],
+      "eigenvalues": [
+        {
+          "real": -13.854577914596042,
+          "imag": 0.0
+        },
+        {
+          "real": 0.09395562396468593,
+          "imag": 10.19450522092785
+        },
+        {
+          "real": 0.09395562396468593,
+          "imag": -10.19450522092785
+        }
+      ],
+      "stability": "неустойчиво"
+    },
+    {
+      "name": "C-",
+      "state": [
+        -8.48528137423857,
+        -8.48528137423857,
+        27.0
+      ],
+      "eigenvalues": [
+        {
+          "real": -13.854577914596042,
+          "imag": 0.0
+        },
+        {
+          "real": 0.09395562396468593,
+          "imag": 10.19450522092785
+        },
+        {
+          "real": 0.09395562396468593,
+          "imag": -10.19450522092785
+        }
+      ],
+      "stability": "неустойчиво"
+    }
+  ],
+  "reference": {
+    "rtol": 1e-12,
+    "atol": 1e-14,
+    "n_steps": 25975,
+    "nfev": 156128,
+    "short_dop853_disagreement": 9.584398515815454e-11,
+    "short_tighter_rk45_disagreement": 9.288314676896231e-11
+  },
+  "sensitivity": {
+    "slope": 0.8809637003997021,
+    "intercept": -28.224089509655283,
+    "r_squared": 0.9395063573489586,
+    "window": [
+      10.0,
+      25.0
+    ],
+    "fine_slope": 0.8721546073224602,
+    "initial_distance": 9.99999993922529e-09,
+    "final_distance": 20.516037011958463,
+    "first_distance_above_one": 28.48
+  },
+  "all_standard_trajectories_finite": true
+}
