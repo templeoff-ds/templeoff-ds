@@ -4,6 +4,7 @@
 
 [Проект и команды запуска](lorenz_lab/README.md) · [Отчёт](lorenz_lab/report.md) · [Подготовка к защите](lorenz_lab/plan-zashchity.md)
 
+- [Построчное объяснение кода](lorenz_lab/code-walkthrough.md).
 - [Математический справочник с нуля](lorenz_lab/math-glossary.md).
 - [Обоснование каждой численной константы](lorenz_lab/constants-explained.md).
 - [Экспериментальные сравнения настроек](lorenz_lab/constants-results.md).

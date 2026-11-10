@@ -43,7 +43,7 @@ def build_report(summary,output):
         for filename,caption in captions.items():
             if (out/filename).exists():figures.append('!['+caption+']('+Path(os.path.relpath(out/filename,base)).as_posix()+')\n\n'+caption+'.\n')
         content=template.replace('{{NUMERICAL_RESULTS}}','\n\n'.join(text+figures))
-        for doc in ['constants-explained.md','constants-results.md','constants-index.md','math-glossary.md']:
+        for doc in ['constants-explained.md','constants-results.md','constants-index.md','math-glossary.md','code-walkthrough.md']:
             content=content.replace(']('+doc+')',']('+Path(os.path.relpath(root/doc,base)).as_posix()+')')
         return content
     (out/'report.md').write_text(make(out),encoding='utf-8')

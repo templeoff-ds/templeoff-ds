@@ -35,5 +35,16 @@
     "notebook_changes": "markdown navigation only",
     "saved_graphs": 7,
     "saved_gif_frames": 160
+  },
+  "line_by_line_walkthrough": {
+    "python_files": 9,
+    "python_lines": 747,
+    "notebook_code_cells": 7,
+    "notebook_code_lines": 32,
+    "source_hashes": "verified",
+    "stage_examples": "verified against rhs/euler_step/rk4_step",
+    "relative_links_checked": 68,
+    "numerical_algorithms": "AST unchanged",
+    "unit_tests_rerun": 12
   }
 }

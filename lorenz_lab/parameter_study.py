@@ -57,7 +57,7 @@ def study():
         ys=sol.sol(t).T
         rows.append(dict(initial=str(initial),initial_speed=float(np.linalg.norm(fun(t[0],initial))),max_norm=float(np.max(np.linalg.norm(ys,axis=1))),final_norm=float(np.linalg.norm(ys[-1]))))
     save('initial_states',rows)
-    # Контрольная сетка одинакова для всех шагов: мелкая сетка исходного исследования.
+    # Общий численный эталон; для каждого h сравнение идёт на собственной сетке sol.t.
     rows=[]
     for end in q['short_horizons']:
         errors=[]

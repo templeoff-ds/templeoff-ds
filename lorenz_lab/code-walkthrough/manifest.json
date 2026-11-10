@@ -1,0 +1,117 @@
+{
+  "format": "line-by-line-walkthrough-v1",
+  "files": {
+    "main.py": {
+      "sha256": "499add90263b976c6958003bea83165c9ec4ddc2ecfe3228e51062aae8d66ba3",
+      "line_count": 25,
+      "document": "code-walkthrough/main.md"
+    },
+    "lorenz.py": {
+      "sha256": "dda1217cab453e83e10c40ab82e4a784f4869c6d8c8a12ff232134a5b017fef6",
+      "line_count": 35,
+      "document": "code-walkthrough/lorenz.md"
+    },
+    "numerical_methods.py": {
+      "sha256": "ef5a7abdec9f04be4642374f3ea5c0219e1b7903fb10df2ba83d41799c6d8e95",
+      "line_count": 47,
+      "document": "code-walkthrough/numerical_methods.md"
+    },
+    "experiments.py": {
+      "sha256": "4d02884ee1dc6a8bda4c3146203aaf01a123aee5642a6278bf1aac96253e62d3",
+      "line_count": 146,
+      "document": "code-walkthrough/experiments.md"
+    },
+    "visualization.py": {
+      "sha256": "68f856353193a7951b45da9ffad59d01255371938de5706af53ca5c88ad0ccc1",
+      "line_count": 89,
+      "document": "code-walkthrough/visualization.md"
+    },
+    "reporting.py": {
+      "sha256": "d3ad7f1f57bea4ae4f0f80b18ab06eb44bf804cc678a64b94922df78128b9018",
+      "line_count": 50,
+      "document": "code-walkthrough/reporting.md"
+    },
+    "tests/test_numerics.py": {
+      "sha256": "a1f41bde44c85100280b679af4cbbb677683369cc6c55170a3d8d02a6cdb7b71",
+      "line_count": 70,
+      "document": "code-walkthrough/tests-test_numerics.md"
+    },
+    "parameter_study.py": {
+      "sha256": "4e6e38431ad0d3281aa7cc47aa4ad6f4d29fb13d5aa4dc022ba8193e903804d3",
+      "line_count": 181,
+      "document": "code-walkthrough/parameter_study.md"
+    },
+    "build_constant_index.py": {
+      "sha256": "0f7345d0e14cc411592d0c768026b48bc4666041063395bb647a842f3f2ca116",
+      "line_count": 104,
+      "document": "code-walkthrough/build_constant_index.md"
+    }
+  },
+  "scope": [
+    "main.py",
+    "lorenz.py",
+    "numerical_methods.py",
+    "experiments.py",
+    "visualization.py",
+    "reporting.py",
+    "tests/test_numerics.py",
+    "parameter_study.py",
+    "build_constant_index.py"
+  ],
+  "note": "Номера и SHA256 относятся к исходным файлам этой поставки. Пустые строки, комментарии и продолжения выражений также включены.",
+  "notebook": {
+    "sha256": "bd8817df34ded994f98fecb7bd86093a6be65c171289fb684d4b0dd9c82b7e58",
+    "code_cells": [
+      {
+        "id": "lorenz-01",
+        "code_ordinal": 1,
+        "position": 3,
+        "line_count": 8,
+        "source_sha256": "db18f6c4c929254238702ba6e97d7c121908385aae7d4a7e9009fd3bc9477a38"
+      },
+      {
+        "id": "lorenz-03",
+        "code_ordinal": 2,
+        "position": 5,
+        "line_count": 6,
+        "source_sha256": "57aed46197ec5ad44e7f479eb5ddc92d31563b44bfb1efa24636152d676966d4"
+      },
+      {
+        "id": "lorenz-05",
+        "code_ordinal": 3,
+        "position": 7,
+        "line_count": 4,
+        "source_sha256": "83b72ccd3f3f0e92051a3ff92fe41c8132757c90d246e7209c3f024b9e15235e"
+      },
+      {
+        "id": "lorenz-07",
+        "code_ordinal": 4,
+        "position": 9,
+        "line_count": 5,
+        "source_sha256": "e163752494c8e839fae8de951b7c0d437783575d157e0ea21c9891b3496bfff8"
+      },
+      {
+        "id": "lorenz-08",
+        "code_ordinal": 5,
+        "position": 10,
+        "line_count": 2,
+        "source_sha256": "592331b658ba20695824d00c368fabb9633d3df11b56a3d6879ddcf176a4a991"
+      },
+      {
+        "id": "lorenz-11",
+        "code_ordinal": 6,
+        "position": 13,
+        "line_count": 3,
+        "source_sha256": "03ff82d3b0ae4768846f3ed327f62378efa7368d67c88b30887369f30a9255da"
+      },
+      {
+        "id": "lorenz-13",
+        "code_ordinal": 7,
+        "position": 15,
+        "line_count": 4,
+        "source_sha256": "e2c50fea9ae73cc58f553866c241e59f5080edde89ac1d9b1b156faaa36282e2"
+      }
+    ],
+    "code_line_count": 32
+  }
+}
